@@ -1,0 +1,40 @@
+header{
+	padding: 20px;
+}
+header .row{
+	display: flex;
+	align-items: center;
+}
+header h1{
+	margin: 0px;
+}
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+header p{
+	border: 1px solid black;
+	border-width: 2px;
+	padding: 10px;
+	margin: 5px;
+}
+.jumbotron{
+	background-color: transparent !important;
+	background-image: url('https://cdn-images-1.medium.com/max/2000/1*uFINNsYNbYuPIC3sUMyy6w.jpeg');
+	display: flex;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 90% 90% !important;
+	align-items: center;
+	background-size: cover;
+	height: 500px;
+}
+footer ul{
+	list-style: none;
+}
+#MyMedia{
+	margin-top: 20px !important;
+}
+#personal-story{
+	color: #6D7993;
+}

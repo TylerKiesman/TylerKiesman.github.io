@@ -36,6 +36,7 @@ response.addEventListener("keyup", function(event) {
 	}
 });
 
+//When the user clicks the reset button the game resets
 rbtn.addEventListener("click", function() {
 	resetAns();
 	rbtn.style.visibility = 'hidden';

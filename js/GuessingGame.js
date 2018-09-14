@@ -6,6 +6,7 @@ var hintSaying = document.getElementById("hint");
 var rbtn = document.getElementById("resetBTN");
 rbtn.style.visibility = 'hidden';
 
+
 //Checks the users guess
 function checkAns() {
 	if(response.value == correctAns) {

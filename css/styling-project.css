@@ -18,6 +18,12 @@ header p{
 	padding: 10px;
 	margin: 5px;
 }
-#summary{
-	font-size: 1.5em;
+.project{
+	border: 1px solid black;
+	border-width: 2px;
+	padding: 10px;
+	margin: 5px;
+}
+#incomplete_projects{
+	font-weight: normal;
 }

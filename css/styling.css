@@ -49,11 +49,8 @@ table{
 	padding-top: 5%;
 }
 
-#MyMedia{
-	list-style: none;
-	margin-top: 20px !important;
-	display:inline-block;
-	align-items: center;
+#MyMedia.tr.th{
+	margin: 0%;
 }
 
 #messageTitle{

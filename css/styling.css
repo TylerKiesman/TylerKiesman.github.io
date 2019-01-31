@@ -1,41 +1,74 @@
-header{
-	padding: 20px;
-}
-header .row{
-	display: flex;
-	align-items: center;
-}
-header h1{
-	margin: 0px;
-}
-header nav{
-	display: flex;
-	justify-content: flex-end;
-}
-header p{
-	border: 1px solid black;
-	border-width: 2px;
-	padding: 10px;
-	margin: 5px;
-}
-.jumbotron{
-	background-color: transparent !important;
-	background-image: url('https://cdn-images-1.medium.com/max/2000/1*uFINNsYNbYuPIC3sUMyy6w.jpeg');
-	display: flex;
-	background-repeat: no-repeat;
+body{
+	background-image: url(https://images.wallpaperscraft.com/image/triangles_geometric_mosaic_124638_1920x1080.jpg);
 	background-position: center top;
-	background-size: 90% 90% !important;
-	align-items: center;
-	background-size: cover;
-	height: 500px;
-}
-footer ul{
-	list-style: none;
-}
-#MyMedia{
-	margin-top: 20px !important;
 }
 
-#resume_link{
-	font-size: 20px;
+th, td{
+	text-align: left;
+	border-top: 2px solid rgba(128,128,128,.2);
+}
+
+tr td{
+	height: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+tr th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+.title{
+	width: 15%;
+}
+
+.navbar-brand,
+.nav.navbar-nav.navbar-right li a {
+    color: white !important;
+}
+
+#intro{
+	margin-bottom: 0%;
+	padding: 0px;
+	background: #222;
+	color: white;
+}
+
+#links, #projects{
+	margin-top: 0%;
+	margin-bottom: 0%;
+	background: white;
+}
+
+#future{
+	padding-top: 5%;
+}
+
+#MyMedia{
+	list-style: none;
+	margin-top: 20px !important;
+	display:inline-block;
+	align-items: center;
+}
+
+#messageTitle{
+	padding-bottom: 3%;
+}
+
+#projectsTitle{
+	padding-bottom: 3%;
+}
+
+#arrow{
+	padding: 0px;
+	text-align: center;
+}
+
+#name{
+	color: white;
 }

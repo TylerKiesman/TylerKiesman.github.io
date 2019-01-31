@@ -1,93 +1,132 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <style type="text/css">
-  a:link {color: black;}
-  a:visited {color: black;}
-  a:hover {color: black !important;}
-  a:active {color: black;}
-  </style>
-  <title>Tyler Kiesman</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,
-  initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="css/styling.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-  </head>
+    <head>
+      <title>Tyler Kiesman</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,
+      initial-scale=1, maximum-scale=1, user-scalable=no">
+    	<link rel="stylesheet" href="css/styling.css"/>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    </head>
   <body>
-    <header class="container">
-	  <div class="row">
-	    <h1 class="col-sm-2">
-		<a href="base-website.html">
-		  Home
-		</a>
-		</h1>
-		<nav class="col-sm-10 text-right">
-		  <a href="projects-page.html">
-		    <p>Projects</p>
-		  </a>
-		</nav>
-	  </div>
-	</header>
-	<section class="jumbotron">
+	  <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#TOP" class="navbar-brand">Tyler Kiesman</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#MyMedia">Contact Info</a></li>
+          </ul>
+        </div>
+    </nav>
+  <div class="container text-center" id="name">
+    <font size="10">Tyler Kiesman</font>
+    <h1>Focused. Diligent.<br> Dependable.</h1>
+  </div>
+  <p id="arrow">
+    <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.clker.com%2Fcliparts%2Fy%2Fm%2FX%2Fo%2Fs%2FR%2Fdown-arrow-circle-hi.png&f=1"
+     width="60" height="60">
+  </p>
+	<section class="jumbotron" id="intro">
 	  <div class="container">
 	    <div class="row text-center">
-		</div>
+        <p><h2 id="messageTitle">My Message...</h2>
+  	      <p>I've always been passionate about personal
+            growth and development and I'm always looking for ways to improve. I'm
+            interested in self-improvement and a firm believer that anyone
+            can change their life through knowledge and focusing on themselves. I work on
+            projects in my spare time to teach myself about software in hopes of
+            one day developing products that will help everyday people like you
+            and me.
+            <br><br> -Tyler Kiesman
+  		  </p></p>
+		  </div>
 	  </div>
 	</section>
-	<section class="container">
-	  <div class="row">
-	    <figure class="col-sm-12">
-		  <h2 id="personal-story">A little about myself...</h2>
-	      <p id="personal-story"><span id="greeting"></span> My name is Tyler
-          Kiesman and I'm a current undergraduate student at the Rochester
-          Institute of Technology studying to obtain a bachelor's degree of
-          Science in software engineering. I'm <span id="age"></span> years old
-          and currently reside in Wheatfield, NY. I'm super enthusiastic about
-          software engineering and love learning about new technologies in the
-          software world. Below you'll find my email and social media links. I'm
-          currently trying to look for a co-op for the summer of 2019 and would
-          appreciate if you gave my resume a look. Please send me an email if
-          you'd like to see it. Thanks!<br><br> -Tyler Kiesman
-		  </p>
-		  <script src="js/Greeting.js"></script>
-		  <script src="js/AgeCalc.js"></script>
-		</figure>
-	  </div>
-	</section>
-	<footer class="container">
-	  <div class="row">
-	    <ul class="col-sm-12" id="MyMedia">
-        <li class="col-sm-8">
-        </li>
-        <li class="col-sm-1">
-          <a href="https://www.linkedin.com/in/tyler-kiesman-b7aa6416b" target="_blank">
-            <img src="pictures/linkedin logo.png" alt="LinkedIn Link"
-            width="60" height="60">
-          </a>
-        </li>
-        <li class="col-sm-1">
-          <a href="https://github.com/TylerKiesman" target="_blank">
-            <img src="pictures/github logo.png" alt="GitHub Link"
-            width="60" height="60">
-          </a>
-        </li>
-  		  <li class="col-sm-1">
-  		    <a href="mailto::tylerkiesman@gmail.com" target="_blank">
-  			    <img src="pictures/email logo.png" alt="Email Link"
-  			    width="60" height="60">
-  			  </a>
-  		  </li>
-        <li class="col-sm-1">
-    		  <a href="https://www.instagram.com/kiesman12/" target="_blank">
-    		    <img src="pictures/insta logo.png" alt="Instagram Link"
-    			width="60" height="60">
-    		  </a>
-    	  </li>
-		  </ul>
-	  </div>
-	</footer>
-  <script src="Scripts/jquery-1.9.1.js"></script>
-  <script src="Scripts/bootstrap.js"></script>
+  <section class="jumbotron" id="projects">
+    <div class="container">
+      <div class="row text-center">
+        <h2 id="projectsTitle">Personal Projects</h2>
+      </div>
+      <div class="row">
+        <table id="projectsTable">
+          <tr>
+            <th class="title"><font size=4>Title</font></th>
+            <th><font size=4>Description</font></th>
+          </tr>
+          <tr>
+            <td class="title"><font size=3>Number Guessing Game</font></td>
+            <td><font size=3>Although I wouldn't consider this a major project by any means,
+            this small exercise introduced me to JavaScript and
+            jQuery. It's a basic guess the number game that I created to get a
+            better feel for how JavaScript interacts with a webpage and to get
+            used to the syntax of jQuery. When a user guesses at the random
+            number the webpage responds by giving hints to the user until they
+            guess the correct number. A link to this game can be
+            found <a href="number-guessing.html">here</a>.</font></td>
+          </tr>
+          <tr>
+            <td class="title"><font size=3>selfLook</font></td>
+            <td><font size=3>selfLook is a social media platform that I'm still
+              in the works of finishing up. It is set to have a feeling similar
+              to Instagram or Facebook and would involve users being able to
+              create accounts and follow others on the platform. They’ll be
+              able to view the posts of people that they follow and can comment
+              on them. It’s currently being built using Python and the Flask
+              framework and utilizes the SQLAlchemy toolkit to create and
+              access an SQL database.
+            </font></td>
+        </table>
+      </div>
+      <div class="row" id="future">
+        <h2>Future Plans</h2>
+        <ul>
+          <li><font size=3>Embedded Systems</font></li>
+          <li><font size=3>Deeper Understanding of Linux</font></li>
+          <li><font size=3>Application Development</font></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="jumbotron"  id="links">
+    <div class="container">
+      <div class="row text-center">
+        <p>Keep Up With Me</p>
+      </div>
+      <div class="row">
+  	    <ul class="col-sm-12" id="MyMedia">
+          <li class="col-sm-4">
+          </li>
+          <li class="col-sm-1">
+            <a href="https://www.linkedin.com/in/tyler-kiesman-b7aa6416b" target="_blank">
+              <img src="pictures/linkedin logo.png" alt="LinkedIn Link"
+              width="60" height="60">
+            </a>
+          </li>
+          <li class="col-sm-1">
+            <a href="https://github.com/TylerKiesman" target="_blank">
+              <img src="pictures/github logo.png" alt="GitHub Link"
+              width="60" height="60">
+            </a>
+          </li>
+    		  <li class="col-sm-1">
+    		    <a href="mailto::tylerkiesman@gmail.com" target="_blank">
+    			    <img src="pictures/email logo.png" alt="Email Link"
+    			    width="60" height="60">
+    			  </a>
+    		  </li>
+          <li class="col-sm-1">
+      		  <a href="https://www.instagram.com/kiesman12/" target="_blank">
+      		    <img src="pictures/insta logo.png" alt="Instagram Link"
+      			width="60" height="60">
+      		  </a>
+      	  </li>
+  		  </ul>
+  	  </div>
+    </div>
+  </section>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/PageSetup.js"></script>
   </body>
 </html>

@@ -32,6 +32,10 @@ table{
     color: white !important;
 }
 
+.job{
+	padding-top: 3%;
+}
+
 #intro{
 	margin-bottom: 0%;
 	padding: 0px;
@@ -39,7 +43,7 @@ table{
 	color: white;
 }
 
-#links, #projects{
+#links, #projects, #experience{
 	margin-top: 0%;
 	margin-bottom: 0%;
 	background: white;
